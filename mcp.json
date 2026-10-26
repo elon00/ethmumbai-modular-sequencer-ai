@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-modular-sequencer-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMSEQ"
+      },
+      "tools": [
+        {
+          "name": "verify_emseq_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai Modular Sequencer AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emseq_action",
+          "description": "Executes authenticated L2 Scaling state transition."
+        }
+      ]
+    }
+  }
+}

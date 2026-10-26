@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-modular-sequencer-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Shared decentralized sequencer for optimistic rollups"
+license = "MIT"
+
+[dependencies]
